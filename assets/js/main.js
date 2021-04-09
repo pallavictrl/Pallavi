@@ -56,14 +56,6 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
-/*chatbot */
-$(document).ready(function() {
-	$('.chat_icon').click(function() {
-		$('.chat_box').toggleClass('active');
-	});
-
-	$('.my-conv-form-wrapper').convform({selectInputStyle: 'disable'})
-});
 
 
 
